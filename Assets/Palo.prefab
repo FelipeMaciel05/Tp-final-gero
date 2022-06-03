@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 7876235489979765814}
   m_Layer: 0
   m_Name: Palo
-  m_TagString: Untagged
+  m_TagString: Tren
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
