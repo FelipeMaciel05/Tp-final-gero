@@ -42,11 +42,21 @@ public class Movimiento : MonoBehaviour
         }
         if (Input.GetKeyDown(KeyCode.W))
         {
-            if(a < 0.51)
+            if(a < 0.60f)
             {
                 rb.AddForce(Vector3.up * subida, ForceMode.Impulse);
             }
         }
         a = transform.position.y;
+    }
+
+
+    void OnCollisionEnter(Collision col)
+    {
+
+        if (col.gameObject.tag == "Velocidad")
+        {
+            speed -= 0.025f;
+        }
     }
 }
