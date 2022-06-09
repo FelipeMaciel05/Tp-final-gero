@@ -6,10 +6,11 @@ using UnityEngine.SceneManagement;
 
 public class SceneManagerScript : MonoBehaviour
 {
+    
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
@@ -27,7 +28,6 @@ public class SceneManagerScript : MonoBehaviour
             transform.position = new Vector3(99, 0.5f, 0);
         }
     }
-
     public void Jugar()
     {
         SceneManager.LoadScene("Escena 1");

@@ -1,12 +1,14 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+
 
 public class Movimiento : MonoBehaviour
 {
     public float subida;
     float a;
-    float speed = -0.1f;
+    float speed = -0.115f;
     int derecha = 1;
     int izquierda = 1;
     Rigidbody rb;
