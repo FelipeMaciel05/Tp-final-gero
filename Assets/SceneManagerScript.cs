@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class SceneManagerScript : MonoBehaviour
 {
-    
+
     // Start is called before the first frame update
     void Start()
     {
@@ -31,5 +31,15 @@ public class SceneManagerScript : MonoBehaviour
     public void Jugar()
     {
         SceneManager.LoadScene("Escena 1");
+    }
+
+    public void Tucson()
+    {
+        SceneManager.LoadScene("Controles");
+    }
+
+    public void Menu()
+    {
+        SceneManager.LoadScene("Inicio");
     }
 }
