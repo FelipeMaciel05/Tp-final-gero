@@ -27,6 +27,11 @@ public class SceneManagerScript : MonoBehaviour
             SceneManager.LoadScene("Escena 2");
             transform.position = new Vector3(99, 0.5f, 0);
         }
+        if (col.gameObject.tag == "Perdes")
+        {
+            SceneManager.LoadScene("Escena 2");
+            transform.position = new Vector3(99, 0.5f, 0);
+        }
     }
     public void Jugar()
     {
